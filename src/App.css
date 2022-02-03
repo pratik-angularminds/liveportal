@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+.App {
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.questions {
+  height: 200px;
+  width: auto;
+}
+.btn {
+  font-size: 14px;
+}
+.option {
+  float: left;
+}
+.tests {
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  width: 400px;
+  border-bottom: 1px solid black;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 30px;
+}
+.container {
+  background-color: white;
+  height: auto;
+  width: auto;
+  padding: 50px;
+  margin: 100px auto 100px auto;
+  font-size: medium;
+}
+#texts{
+  width: 500px;
+  border: 1px solid gray;
+}
+.options {
+  border: 1px solid black;
+  padding: 20px;
+}
+#inputGroupPrepend{
+  height: 96px;
+}
+#inputGroupPrepend2{
+  height: 130px;
+}
+.singleque {
+  padding: 30px 10px;
+}
+.component2 {
+  border: 1px solid black;
+  height: 70px;
+}
+.dropdown {
+  float: left;
+}
+.dropdown1 {
+  float: right;
+}
+.btn-group {
+  float: right;
+}
+.que {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+.buttons {
+  padding: 20px;
+}
+.button1 {
+  float: left;
+  padding-left: 10px;
+}
+.form-control {
+  font-size: 16px;
+  height: 95px;
+  width:500px;
+  border: none;
+}
+.contains{
+  height: 30px;
+}
+.quilll{
+  height:80px;
+  width: 650px;
+
+}
+.row{
+  height:auto;
+  margin-top: 10px;
+}
+.form-check-input {
+  height: 20px;
+  width: 20px;
+}
+.input-group-text1 {
+  height: 80px;
+  
+  width: 40px;
+}
+.input-group-text2 {
+  height: 123px;
+  width: 40px;
+}
+.tag{
+  margin-top: 60%;
+  margin-left:10px;
+}
+.form-select {
+  font-size: 16px;
+}
+
+
+.button2 {
+  float: right;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.button2:hover {
+  background-color: white;
+  border: 1px solid red;
+  color: black;
+  cursor: pointer;
+}
+.next {
+  padding: 10px 20px;
+  background-color: #516beb;
+  border: none;
+  color: white;
+  float: right;
+  margin: 20px 10px;
+}
+.next:hover {
+  background-color: white;
+  border: 1px solid #516beb;
+  color: black;
+  cursor: pointer;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  width: 50px;
+  font-family: sans-serif;
+  min-width: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.styled-table tr:hover {
+  font-weight: bold;
+  color: #009879;
+}
+.butt {
+  border: 1px solid #009879;
+  height: 30px;
+  width: 80px;
+  background-color: white;
+  color: #781d42;
+}
+.butt:hover {
+  background-color: #009879;
+  color: white;
+  cursor: pointer;
+}
+
+#quedesign {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#quedesign td,
+#quedesign th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#quedesign tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#quedesign tr:hover {
+  background-color: #ddd;
+}
+
+#quedesign th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
